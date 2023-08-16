@@ -1,0 +1,43 @@
+.header{
+    width: 100%;
+    background-color: #11b9b9;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.inner{
+    margin-left: 30px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+.logo{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #0da9a9;
+    text-align: center;
+    text-decoration: none;
+}
+nav{
+    width: 80%;
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.item{
+    list-style: none;
+}
+.item a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 2.5rem;
+}
+
+a.activeLink{
+    background-color: white;
+    color: #0da9a9;
+    padding: 0 5px;
+}
